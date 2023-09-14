@@ -1,0 +1,32 @@
+.navbar {
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+  }
+  
+  .links {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 25px;
+  }
+  .links a:hover {
+    transition: ease-in-out 5ms;
+    text-decoration: none;
+    color: solid rgb(31, 82, 160);
+    margin-left: 40px;
+  }
+.cartIcon{
+  padding-top: -30px;
+}
+
